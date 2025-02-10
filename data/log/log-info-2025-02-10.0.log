@@ -1,0 +1,267 @@
+25-02-10.23:33:37.921 [main            ] INFO  Application            - Starting Application using Java 17.0.8 on Naive_elephant with PID 11936 (D:\javaProject\s-pay\web\target\classes started by 79217 in D:\javaProject\s-pay)
+25-02-10.23:33:37.923 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-02-10.23:33:38.590 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 80 (http)
+25-02-10.23:33:38.597 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-80"]
+25-02-10.23:33:38.597 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-02-10.23:33:38.597 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-02-10.23:33:38.677 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-02-10.23:33:38.677 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 710 ms
+25-02-10.23:33:38.715 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinLoginServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.google.common.cache.Cache<java.lang.String, java.lang.String>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+25-02-10.23:33:38.716 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-02-10.23:33:38.726 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-02-10.23:33:38.740 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.google.common.cache.Cache' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.google.common.cache.Cache' in your configuration.
+
+25-02-10.23:37:08.529 [main            ] INFO  Application            - Starting Application using Java 17.0.8 on Naive_elephant with PID 34424 (D:\javaProject\s-pay\web\target\classes started by 79217 in D:\javaProject\s-pay)
+25-02-10.23:37:08.531 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-02-10.23:37:09.097 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 80 (http)
+25-02-10.23:37:09.103 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-80"]
+25-02-10.23:37:09.103 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-02-10.23:37:09.103 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-02-10.23:37:09.177 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-02-10.23:37:09.177 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 612 ms
+25-02-10.23:37:09.210 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinLoginServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.google.common.cache.Cache<java.lang.String, java.lang.String>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+25-02-10.23:37:09.212 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-02-10.23:37:09.218 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-02-10.23:37:09.230 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.google.common.cache.Cache' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.google.common.cache.Cache' in your configuration.
+
+25-02-10.23:37:42.969 [main            ] INFO  Application            - Starting Application using Java 17.0.8 on Naive_elephant with PID 22452 (D:\javaProject\s-pay\web\target\classes started by 79217 in D:\javaProject\s-pay)
+25-02-10.23:37:42.971 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-02-10.23:37:43.532 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 80 (http)
+25-02-10.23:37:43.538 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-80"]
+25-02-10.23:37:43.538 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-02-10.23:37:43.538 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-02-10.23:37:43.603 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-02-10.23:37:43.603 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 594 ms
+25-02-10.23:37:43.635 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinLoginServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.google.common.cache.Cache<java.lang.String, java.lang.String>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+25-02-10.23:37:43.637 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-02-10.23:37:43.644 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-02-10.23:37:43.659 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.google.common.cache.Cache' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.google.common.cache.Cache' in your configuration.
+
+25-02-10.23:38:15.998 [main            ] INFO  Application            - Starting Application using Java 17.0.8 on Naive_elephant with PID 30236 (D:\javaProject\s-pay\web\target\classes started by 79217 in D:\javaProject\s-pay)
+25-02-10.23:38:16.000 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-02-10.23:38:16.578 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 80 (http)
+25-02-10.23:38:16.584 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-80"]
+25-02-10.23:38:16.585 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-02-10.23:38:16.585 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-02-10.23:38:16.652 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-02-10.23:38:16.652 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 615 ms
+25-02-10.23:38:16.827 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinLoginServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'weixin.config.app-id' in value "${weixin.config.app-id}"
+25-02-10.23:38:16.829 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-02-10.23:38:16.836 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-02-10.23:38:16.846 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinLoginServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'weixin.config.app-id' in value "${weixin.config.app-id}"
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at org.example.Application.main(Application.java:11)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinLoginServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'weixin.config.app-id' in value "${weixin.config.app-id}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 17 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'weixin.config.app-id' in value "${weixin.config.app-id}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 33 common frames omitted
+25-02-10.23:40:54.343 [main            ] INFO  Application            - Starting Application using Java 17.0.8 on Naive_elephant with PID 24808 (D:\javaProject\s-pay\web\target\classes started by 79217 in D:\javaProject\s-pay)
+25-02-10.23:40:54.345 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-02-10.23:40:54.938 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 80 (http)
+25-02-10.23:40:54.944 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-80"]
+25-02-10.23:40:54.944 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-02-10.23:40:54.944 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-02-10.23:40:55.019 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-02-10.23:40:55.019 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 632 ms
+25-02-10.23:40:55.488 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-80"]
+25-02-10.23:40:55.503 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 80 (http) with context path ''
+25-02-10.23:40:55.509 [main            ] INFO  Application            - Started Application in 1.525 seconds (JVM running for 1.944)
+25-02-10.23:41:09.570 [http-nio-80-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-02-10.23:41:09.571 [http-nio-80-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-02-10.23:41:09.571 [http-nio-80-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+25-02-10.23:41:09.590 [http-nio-80-exec-1] INFO  WeixinPortalController - 微信公众号验签信息开始 [29d1cbfcb06b786751c909cfa8bee6f964f241ad, 1739202080, 1459582062, 6654591110447046335]
+25-02-10.23:41:09.597 [http-nio-80-exec-1] INFO  WeixinPortalController - 微信公众号验签信息完成 check：true
+25-02-10.23:43:11.282 [http-nio-80-exec-3] INFO  LoginController        - 生成微信扫码登录 ticket:gQEZ8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRGRKQndMVXBkZUkxV3FIaE5EMVkAAgSaHqpnAwQAjScA
+25-02-10.23:46:10.561 [http-nio-80-exec-4] INFO  LoginController        - 扫码检测登录结果 ticket:gQEZ8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRGRKQndMVXBkZUkxV3FIaE5EMVkAAgSaHqpnAwQAjScA openidToken:null
+25-02-10.23:48:52.086 [http-nio-80-exec-8] INFO  LoginController        - 扫码检测登录结果 ticket:gQEZ8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRGRKQndMVXBkZUkxV3FIaE5EMVkAAgSaHqpnAwQAjScA openidToken:null
+25-02-10.23:50:36.768 [http-nio-80-exec-1] INFO  WeixinPortalController - 接收微信公众号信息请求oOJlO7FKQXylYmBN9wtKIvl7VW28开始 <xml><ToUserName><![CDATA[gh_c8f98d60710e]]></ToUserName>
+<FromUserName><![CDATA[oOJlO7FKQXylYmBN9wtKIvl7VW28]]></FromUserName>
+<CreateTime>1739202647</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[100601]]></EventKey>
+<Ticket><![CDATA[gQEZ8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRGRKQndMVXBkZUkxV3FIaE5EMVkAAgSaHqpnAwQAjScA]]></Ticket>
+</xml>
+25-02-10.23:50:38.123 [http-nio-80-exec-3] INFO  WeixinPortalController - 接收微信公众号信息请求oOJlO7FKQXylYmBN9wtKIvl7VW28开始 <xml><ToUserName><![CDATA[gh_c8f98d60710e]]></ToUserName>
+<FromUserName><![CDATA[oOJlO7FKQXylYmBN9wtKIvl7VW28]]></FromUserName>
+<CreateTime>1739202649</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>3852222902066266117</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+25-02-10.23:50:38.132 [http-nio-80-exec-3] ERROR WeixinPortalController - 接收微信公众号信息请求oOJlO7FKQXylYmBN9wtKIvl7VW28失败 <xml><ToUserName><![CDATA[gh_c8f98d60710e]]></ToUserName>
+<FromUserName><![CDATA[oOJlO7FKQXylYmBN9wtKIvl7VW28]]></FromUserName>
+<CreateTime>1739202649</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>3852222902066266117</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$UnknownFieldException: No such field org.example.common.weixin.MessageTextEntity.MsgID
+---- Debugging information ----
+message             : No such field org.example.common.weixin.MessageTextEntity.MsgID
+field               : MsgID
+class               : org.example.common.weixin.MessageTextEntity
+required-type       : org.example.common.weixin.MessageTextEntity
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+version             : 1.4.20
+-------------------------------
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.handleUnknownField(AbstractReflectionConverter.java:520)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:371)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:277)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:74)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:68)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:52)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:136)
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1464)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1441)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1321)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1312)
+	at org.example.common.weixin.XmlUtil.xmlToBean(XmlUtil.java:148)
+	at org.example.controller.WeixinPortalController.post(WeixinPortalController.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-02-10.23:50:49.833 [http-nio-80-exec-5] INFO  LoginController        - 扫码检测登录结果 ticket:gQEZ8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRGRKQndMVXBkZUkxV3FIaE5EMVkAAgSaHqpnAwQAjScA openidToken:oOJlO7FKQXylYmBN9wtKIvl7VW28

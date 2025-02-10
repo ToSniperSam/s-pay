@@ -1,0 +1,5 @@
+spring:
+  config:
+    name: s-pay
+  profiles:
+    active: dev
