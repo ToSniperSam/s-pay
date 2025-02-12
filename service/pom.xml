@@ -50,6 +50,13 @@
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
+        <!-- 这是一个 Maven 依赖配置，用于将支付宝的 Java SDK 引入到项目中 -->
+        <dependency>
+            <!-- groupId：表示组织的唯一标识，这里是支付宝的官方 groupId -->
+            <groupId>com.alipay.sdk</groupId>
+            <!-- artifactId：表示项目的名称，这里是支付宝的 Java SDK -->
+            <artifactId>alipay-sdk-java</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

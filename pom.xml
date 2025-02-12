@@ -131,6 +131,12 @@
                 <artifactId>adapter-rxjava2</artifactId>
                 <version>2.9.0</version>
             </dependency>
+            <!-- 这是一个 Maven 依赖配置，用于将支付宝的 Java SDK 引入到项目中 -->
+            <dependency>
+                <groupId>com.alipay.sdk</groupId>
+                <artifactId>alipay-sdk-java</artifactId>
+                <version>4.40.54.ALL</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
