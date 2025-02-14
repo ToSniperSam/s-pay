@@ -1,7 +1,10 @@
 package org.example.config;
 
+import com.alipay.api.domain.OrderPageQueryDTO;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
+import com.google.common.eventbus.EventBus;
+import org.example.listener.OrderPaySuccessListener;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -21,5 +24,12 @@ public class GuavaConfig {
         return CacheBuilder.newBuilder()
                 .expireAfterWrite(1, TimeUnit.HOURS)
                 .build();
+    }
+
+    @Bean
+    public EventBus eventBusListener(OrderPaySuccessListener listener){
+        EventBus eventBus = new EventBus();
+        eventBus.register(listener);
+        return eventBus;
     }
 }
