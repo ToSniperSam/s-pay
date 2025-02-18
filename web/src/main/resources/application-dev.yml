@@ -1,5 +1,5 @@
 server:
-  port: 80
+  port: 8088
   tomcat:
     max-connections: 20
     threads:
@@ -14,7 +14,7 @@ weixin:
     token: wxtoken
     app-id: wx2bfae64099dbf070
     app-secret: b2dba393e3e87077d5746cc01bdf9163
-    template_id: CUa0TPkA9xFVM-cgZY33-sCEwb6A7sBJCcH08PnXbVE
+    template_id: 4YJNL1e8ff1mBNeMbHwFS-AtkomZW3MBe6pqRiwQxrM
 
 
 spring:
