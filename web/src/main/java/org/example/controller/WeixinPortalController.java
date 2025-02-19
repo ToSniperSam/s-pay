@@ -68,7 +68,7 @@ public class WeixinPortalController {
 
             if ("event".equals(message.getMsgType()) && "SCAN".equals(message.getEvent())) {
                 loginService.saveLoginState(message.getTicket(), openid);
-                return buildMessageTextEntity(openid, "MSDM 6980 I Love you");
+                return buildMessageTextEntity(openid, "狗狗喜欢刘思月");
             }
 
             return buildMessageTextEntity(openid, "你好，" + message.getContent());

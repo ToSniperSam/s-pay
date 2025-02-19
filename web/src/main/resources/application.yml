@@ -1,5 +1,5 @@
 spring:
   config:
-    name: s-pay
+    name: s-pay-mvc
   profiles:
-    active: dev
+    active: prod
